@@ -1,6 +1,6 @@
 ---
 title: index.html
-date: 2017-10-20 08:26:28 -0400
+date: 2019-1-14 08:26:28 -0400
 categories: jekyll update
 ---
 /*
@@ -24,13 +24,14 @@ function del_btn(event){
 /*
   버튼을 클릭시, 화면에 시간표시, 로컬DB에 시간정보 저장 및 버튼 비활성화 
 */
-function time_btn(event){
 
-			var date=new Date();
+var date=new Date();
 			var hour = date.getHours();
 			var min = date.getMinutes();
 			var att_time='';
 			var lea_time='';
+      
+function time_btn(event){
 
 			switch(event.target.id){
 				
@@ -58,7 +59,7 @@ function time_btn(event){
 		  	*/
 		}
   
-  ------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------
 /*
   미완성 function
 */
@@ -70,6 +71,8 @@ function time_btn(event){
 
 		function data_trans(){
 			/*
+          <a href="javascript:data_trans()">Data Transfor</a>
+          
 		    	["select" DB query] => Transfer status value check 
 
 			    if([Transfer status]===[false]){
@@ -88,7 +91,7 @@ function time_btn(event){
 	
 		}
    
-    ------------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
     
 		var date=new Date();
 		var year = date.getFullYear();
@@ -123,7 +126,7 @@ function time_btn(event){
 			}
 		});	
     
-  ------------------------------------------------------------------------------------------------------------------------------    
+  ----------------------------------------------------------------------------------------------------------------------------
   /*
 			Returns a number: cresult
 			-1 if a < b 로컬 DB의 날짜 정보가 현재날짜보다 늦은 경우, 
