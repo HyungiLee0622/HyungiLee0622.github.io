@@ -157,8 +157,8 @@ function time_btn(event){
    
    if(cresult===-1){
 
-			$('#attend').attr ( 'disabled', false).css('background', '#ff0000'); 
-			$('#leave').attr ( 'disabled', false).css('background', '#ff0000'); 
+			$('#attend').attr ( 'disabled', false).css('background', [비활성화색상]); 
+			$('#leave').attr ( 'disabled', false).css('background', [비활성화색상]); 
 			
 			$('#attend').on('click', del_btn);
 			$('#leave').on('click', del_btn);
@@ -169,4 +169,4 @@ function time_btn(event){
 			$('#leave').on('click', time_btn);
 			
 		}
-  ------------------------------------------------------------------------------------------------------------------------------    
+  ---------------------------------------------------------------------------------------------------------------------------
