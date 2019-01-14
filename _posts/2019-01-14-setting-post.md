@@ -11,6 +11,8 @@ var locVariable =
 };
 
 /*Dropdown List에 속성 자바스크립트 파일 안에 있는 Dictionary변수의 값을 뿌려준다.*/
+/*<select id="loc_list" onchange="loc_list(this.value);"></select>*/
+
 <script type="text/javascript" src="properties.js"></script>
 
 	<script type="text/javascript">
