@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "setting.html"
 date: 2019-1-14 08:26:28 -0400
 categories: jekyll update
 ---
