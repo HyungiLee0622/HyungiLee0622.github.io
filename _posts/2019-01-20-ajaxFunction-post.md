@@ -3,7 +3,7 @@ title: "ajaxFunction.html"
 date: 2019-1-20 08:26:28 -0400
 categories: jekyll update
 ---
-
+{
 function send_data(){
 
 	var hostUrl='[URL]';
@@ -26,5 +26,7 @@ function send_data(){
 		}
 
 	});
+
+}
 
 }
